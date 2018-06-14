@@ -9,6 +9,8 @@ get '/' do
   # one = params[:dietary_restrictions]
 end
 
+post '/'
+
 end 
 
 # get '/denver' do
