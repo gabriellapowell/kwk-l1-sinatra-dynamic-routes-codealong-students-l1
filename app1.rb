@@ -4,9 +4,9 @@ class App < Sinatra::Base
 
 get '/' do
    erb :foodecisive
-   one = params[:price]
-   one = params[:city]
-   one = params[:dietary_restrictions]
+  # one = params[:price]
+  # one = params[:city]
+  # one = params[:dietary_restrictions]
 end
 
 end 
