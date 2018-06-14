@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
 get '/' do
-   erb:foodecisive
+   erb: foodecisive
    one = params[:price]
    one = params[:city]
    one = params[:dietary_restrictions]
