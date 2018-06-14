@@ -1,6 +1,6 @@
 require_relative 'config/environment'
 
-class App < Sinatra::Baserequire 'sinatra'
+class App < Sinatra::Base
 
 get '/' do
    erb:foodicisive
