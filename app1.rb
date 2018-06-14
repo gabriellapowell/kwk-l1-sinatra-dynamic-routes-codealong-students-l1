@@ -9,7 +9,9 @@ get '/' do
   # one = params[:dietary_restrictions]
 end
 
-post '/'
+post '/survey' do
+  puts params
+end 
 
 end 
 
