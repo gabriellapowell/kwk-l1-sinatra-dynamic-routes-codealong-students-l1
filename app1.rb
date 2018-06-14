@@ -9,6 +9,7 @@ get '/' do
    one = params[:dietary_restrictions]
 end
 
+end 
 
 get '/denver' do
    erb:prices_denver
