@@ -11,11 +11,10 @@ end
 
 end 
 
-get '/denver' do
-   erb:prices_denver
-end
+# get '/denver' do
+#   erb:prices_denver
+# end
 
-end 
 
 # def denver(vegan,vegetarian,dairy_free,all)
 #   { 
